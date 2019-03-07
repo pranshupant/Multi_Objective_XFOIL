@@ -1,0 +1,18 @@
+cat <<EOF > controlfile.xfoil
+LOAD Airfoil.txt
+
+OPER
+RE 1.346e6
+VISC
+ITER
+3000
+PACC
+solution.txt
+
+N
+ALFA 0.0
+HARD
+PACC
+
+QUIT
+EOF
