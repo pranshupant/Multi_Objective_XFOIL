@@ -4,7 +4,7 @@ Optimisation framework for airfoils using Invasive Weed Optimisation - Multi Obj
 
 Runs in low precision mode by using XFOIL for flow evaluation and NSGA-II for multi-objective functionality . 
 
-Execute the NSIWO.py file
+Uses NSGA-II coupled with Invasive Weed Optimization for performing shape optimization of VAWT.
 
 ```
 python3 NSIWO.py
