@@ -6,7 +6,9 @@ Runs in low precision mode by using XFOIL for flow evaluation and NSGA-II for mu
 
 Execute the NSIWO.py file
 
-```python3 NSIWO.py ```
+```
+python3 NSIWO.py
+```
 
 This code accompanies the following research papers:
 
