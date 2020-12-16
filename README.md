@@ -1,8 +1,12 @@
 # Multi_Objective_XFOIL
 
-Optimisation framework for airfoils using Invasive Weed Optimisation - Multi Objective max(Cl/Cd) and min(Maximum Camber). 
+Optimisation framework for airfoils using Invasive Weed Optimisation - Multi Objective - max(Cl/Cd) and min(Maximum Camber). 
 
-Runs in high precision mode by using CFD - OpenFOAM v6.
+Runs in low precision mode by using XFOIL for flow evaluation and NSGA-II for multi-objective functionality . 
+
+Execute the NSIWO.py file
+
+```python3 NSIWO.py ```
 
 This code accompanies the following research papers:
 
